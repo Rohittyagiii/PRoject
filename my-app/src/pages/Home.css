@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0bcce6, #764ba2);
+  /* background: #0bcce6; */
+}
+
+/* Heading */
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  background: #ceeee2;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  max-width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #819fa8;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input focus effect */
+input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+  background: #5a67d8;
+}
+
+/* Responsive design */
+/* Mobile devices (phones) */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Extra small devices (very small phones) */
+@media (max-width: 400px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  input,
+  button {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
