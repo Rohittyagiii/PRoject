@@ -1,12 +1,10 @@
-/* Reset */
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
 
-Page container
 div {
   display: flex;
   flex-direction: column;
@@ -17,13 +15,11 @@ div {
   padding: 20px;
 }
 
-Heading
 h1 {
   color: #fff;
   margin-bottom: 20px;
 }
-
-Form
+ 
 form {
   background: #fff;
   padding: 30px;
@@ -32,8 +28,7 @@ form {
   max-width: 100%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
-
-Inputs & select
+ 
 input,
 select {
   width: 100%;
@@ -42,12 +37,6 @@ select {
   border: 1px solid #ccc;
   outline: none;
   transition: 0.3s;
-}
-
-input:focus,
-select:focus {
-  border-color: #4facfe;
-  box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
 }
 
 button {

@@ -8,7 +8,7 @@ function Users({ users }) {
       ) : (
         users.map((user, index) => (
           <div key={index}>
-            <p>Name: {user.firstname} {user.lastname}</p>
+            <p>Name: {user.name}</p>
             <p>Age: {user.age}</p>
             <p>Gender: {user.gender}</p>
             <p>Address:{user.address}</p>
